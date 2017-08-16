@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="php cs fixer" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/.phpbrew/php/7.1-main/bin/php" />
+      <option name="PARAMETERS" value="$USER_HOME$/bin/php-cs-fixer fix $FilePath$ --verbose  --diff  --config=.php_cs" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
