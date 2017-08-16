@@ -4,11 +4,6 @@
       <MessDetectorConfiguration max_messages_per_file="100" timeout="30000" tool_path="$USER_HOME$/bin/phpmd" />
     </phpmd_settings>
   </component>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="$USER_HOME$/.phpbrew/php/7.1-main/bin/php" id="35fa017f-f2f7-4a62-9471-6b0384cb0227" name="PHP" debugger_id="php.debugger.XDebug" />
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP">
